@@ -1,0 +1,14 @@
+.news-item-enter {
+    opacity: 0;
+}
+.news-item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.news-item-exit {
+    opacity: 1;
+}
+.news-item-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}

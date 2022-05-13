@@ -1,0 +1,19 @@
+import NavBar from "./NavBar";
+import NewsList from "./NewsList/NewsList";
+import NewsAddForm from "./NewsAddForm";
+import NewsFilter from "./NewsFilter";
+
+export default function App() {
+  return (
+    <div className="app" >
+      <NavBar/>
+      <div  className="content">
+          <NewsList/>
+          <div className="content__page">
+            <NewsAddForm/>
+            <NewsFilter/>
+          </div>
+      </div>
+    </div>
+  );
+}

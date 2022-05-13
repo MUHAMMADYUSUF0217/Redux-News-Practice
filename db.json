@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "id": 4,
+      "name": "In the world was hot nature",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "category": "World News"
+    },
+    {
+      "id": "9453c16c-8ab6-44cb-b4dd-9bb999f45a3e",
+      "name": "Muhammadyusuf developer",
+      "description": "Great job",
+      "category": "Sport News"
+    },
+    {
+      "id": "e8895096-4082-4115-9571-582c4b37595e",
+      "name": "Muhammadyusuf ",
+      "description": "Developer",
+      "category": "Hot News"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "Hot News",
+      "label": "Hot News",
+      "className": "btn-danger"
+    },
+    {
+      "name": "Sport News",
+      "label": "Sport News",
+      "className": "btn-primary"
+    },
+    {
+      "name": "World News",
+      "label": "World News",
+      "className": "btn-success"
+    }
+  ]
+}
